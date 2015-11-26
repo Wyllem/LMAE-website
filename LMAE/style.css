@@ -1,0 +1,41 @@
+body 
+{
+	margin: 0;
+}
+
+#navBar 
+{
+	width: 100%;
+	height: 10%;
+	background-color: #27ae60;
+	font-size: 3em;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 2px 3px #333333;
+}
+
+#navBar ul {
+	height: auto;
+	margin: 0;
+	list-style-type:none;
+}
+
+#navBar li {
+	display: inline;
+	padding: 20px;
+}
+
+#navBar li:nth-child(2) {
+	
+}
+
+#navBar a {
+	text-decoration: none;
+	padding: 8px 8px 8px 8px;
+}
+
+/*---- FIRST PAGE ----*/
+.firstPage {
+	position: relative;
+}
