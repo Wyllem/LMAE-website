@@ -1,11 +1,17 @@
 body {
     background: linear-gradient(to right, #caa555 , #989278);
+
+}
+
+.register_form {
+	color: white;
+}
+
+.register_form input {
+	border-radius: 0px !important;
 	color:white;
 }
 
-.container{
+.bloc1{
 	padding-top: 5%;
-}
-.container-b{
-	padding-top: 10%;
 }
