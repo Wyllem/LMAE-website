@@ -1,3 +1,11 @@
 body {
     background: linear-gradient(to right, #caa555 , #989278);
+	color:white;
+}
+
+.container{
+	padding-top: 5%;
+}
+.container-b{
+	padding-top: 10%;
 }
