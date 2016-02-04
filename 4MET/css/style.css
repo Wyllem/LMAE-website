@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to right, #caa555 , #989278);
+
 }
 
 .register_form {
@@ -8,4 +9,9 @@ body {
 
 .register_form input {
 	border-radius: 0px !important;
+	color:white;
+}
+
+.bloc1{
+	padding-top: 5%;
 }
