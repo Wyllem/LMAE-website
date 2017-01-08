@@ -1,5 +1,6 @@
 'use strict';
-
+console.log("JE TEST GIT");
+console.log("JUST CLONE BRO`");
 /*
  * A Design by GraphBerry
  * Author: GraphBerry
@@ -70,7 +71,7 @@
     // Bind to scroll
     $(window).scroll(function () {
 
-        //Display or hide scroll to top button 
+        //Display or hide scroll to top button
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
         } else {
@@ -297,8 +298,8 @@ $("#send-mail").click(function () {
     /************************
     Animate elements
     *************************/
-    
-    //Animate thumbnails 
+
+    //Animate thumbnails
     jQuery('.thumbnail').one('inview', function (event, visible) {
         if (visible == true) {
             jQuery(this).addClass("animated fadeInDown");
@@ -315,7 +316,7 @@ $("#send-mail").click(function () {
             jQuery(this).removeClass("animated fadeInDown");
         }
     });
-    
+
     //animate first team member
     jQuery('#first-person').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -324,7 +325,7 @@ $("#send-mail").click(function () {
             jQuery('#first-person').removeClass("animated pulse");
         }
     });
-    
+
     //animate sectond team member
     jQuery('#second-person').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -342,7 +343,7 @@ $("#send-mail").click(function () {
             jQuery('#third-person').removeClass("animated pulse");
         }
     });
-    
+
     //Animate price columns
     jQuery('.price-column, .testimonial').bind('inview', function (event, visible) {
         if (visible == true) {
@@ -351,7 +352,7 @@ $("#send-mail").click(function () {
             jQuery(this).removeClass("animated fadeInDown");
         }
     });
-    
+
     //Animate contact form
     jQuery('.contact-form').bind('inview', function (event, visible) {
         if (visible == true) {
